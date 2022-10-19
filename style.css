@@ -31,7 +31,7 @@ body {
 .logo {
     height: 80px;
     color: #fff;
-    width: 50%;
+    width: 30%;
 
     line-height: 75px;
     vertical-align: center;
@@ -58,7 +58,7 @@ body {
     position: absolute;
     top: 4px;
     left: 90px;
-    font-size: 20px;
+    font-size: 1.25em; /* 20 / 16 */
     font-weight: 200;
 }
 
@@ -66,29 +66,27 @@ body {
     text-align: center;
     float: left;
     height: 100%;
-    width: 50%;
-    position: relative;
+    width: 70%;
 }
 
 .hero nav ul {
-    position: absolute;
-    top: 20px;
+    float: right;
     padding: 0;
+    padding-top: 30px;
     margin: 0;
     list-style: none;
 }
 
-.hero nav li {
+.hero nav ul li {
     display: inline-block;
-    text-align: center;
-    padding: 10px;
-    margin-left: 55px;
+    text-align: left;
+    margin-right: 50px; 
     box-sizing: border-box;
 }
 
 .hero nav a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1em;
     color: #fff;
 }
 
@@ -96,41 +94,215 @@ body {
 .hero-content {
     width: 100%;
     height: calc(100% - 80px);
-    position: relative;
 }
 
 .motto {
     text-shadow: 3px 3px 5px #000;
-    position: absolute;
-    bottom: 120px;
-    left: 650px;
-    width: 600px;
-    height: 100px;
+    margin: 0 auto;
+    margin-top: 640px;
+    width: 31.578947%; /* 600 / 1900 */
+    height: 200px;
     color: #fff;
 }
 
 .motto h4 {
-    font-size: 45px;
+    font-size: 2.8125em; /* 45 / 16 */
     font-weight: 250;
     margin: 0;
 }
 
 .motto p {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 200;
 }
 
 .hero-btn {
-    position: absolute;
-    bottom: 40px;
-    left: 925px;
+    margin: 10px 60px;
+    float: right;
     width: 220px;
     height: 54px;
     border: 1px solid #fff;
     text-align: center;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 1em; /*16 / 16*/
     box-sizing: border-box;
     padding: 15px;
     color: #fff;
+}
+
+.hero-btn:hover {
+    background-color: rgb(240, 240, 240);
+    color: #3F3F3F;
+    cursor: pointer;
+    text-shadow: none;
+    font-weight: 400;
+}
+
+/* Welcome */
+.welcome {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Welcome title */
+.welcome-title {
+    width: 200px;
+    height: 50px;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.marks {
+    position: relative;
+}
+
+.markgray {
+    position: absolute;
+    bottom: 150px; 
+    right: 43.75%; 
+    width: 30px;
+    height: 10px;
+    border-top: 2px solid #3F3F3F;
+    border-right: 2px solid #3F3F3F;
+}
+
+.markorange {
+    position: absolute;
+    top: -110px;
+    left: 835px;
+    width: 30px;
+    height: 10px;
+    border-left: 2px solid #FF960B;
+    border-bottom: 2px solid #FF960B;
+}
+
+/* Welcome intro text */
+.welcome-intro {
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.1em; /* 21 / 16 */
+    line-height: 35px;
+    text-align: center;
+    width: 47.552083%; /* 913 / 1920 */
+}
+
+/* Welcome content */
+.welcome-container {
+    margin: 70px auto;
+    width: 71.315789%; /* 1355 / 1900 */
+    height: 600px;
+}
+
+.side-part {
+    float: left;
+    height: 100%;
+    width: 44.85%;
+}
+
+.welcome-content {
+    height: 100px;
+    width: 100%;
+}
+
+.welcome-content img {
+    width: 70px;
+    margin: 0 10px;
+    margin-top: 15px;
+}
+
+.planification {
+    margin-top: 200px;
+}
+
+.planification img {
+    float: right;
+}
+
+.planification .section {
+    padding-top: 15px;
+    text-align: right;
+}
+
+.creativity .section {
+    padding-top: 17px;
+    text-align: right;
+}
+
+.creativity {
+    margin-top: 150px;
+}
+
+.creativity img {
+    float: right;
+}
+
+.matter-detail {
+    margin-top: 75px;
+}
+
+.matter-detail img {
+    float: left;
+}
+
+.matter-detail .section {
+    padding-top: 15px;
+}
+
+.building-dreams {
+    margin-top: 150px;
+}
+
+.building-dreams img {
+    float: left;
+}
+
+.building-dreams .section {
+    padding-top: 15px;
+}
+
+.section h4 {
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.section p {
+    margin: 0;
+    /* font-size: 1.3125em; */
+}
+
+.center-part {
+    float: left;
+    height: 100%;
+    width: 10%;
+}
+
+.side-bars {
+    float: left;
+    height: 100%;
+    width: 49.25%;
+}
+
+.first {
+    border-right: 1px solid black;
+}
+
+.bars-big {
+    height: 250px;
+    border-bottom: 1px solid #000;
+}
+
+.bars-small {
+    height: 125px;
+    border-bottom: 1px solid #000;
+}
+
+/* Services */
+.services {
+    height: 100%;
+    width: 100%;
+    background-color: #EFEFEF;
 }
