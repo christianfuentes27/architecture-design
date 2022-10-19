@@ -12,10 +12,16 @@ body {
 /* Hero section */
 
 .hero {
-    height: 1080px;
+    height: 100%;
     width: 100%;
     background-color: black;
+    background-image: url(img/hero/op.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+
+/* Navbar  */
 
 .navbar {
     width: 100%;
@@ -23,7 +29,6 @@ body {
 }
 
 .logo {
-    background-color: red;
     height: 80px;
     color: #fff;
     width: 50%;
@@ -53,11 +58,12 @@ body {
     position: absolute;
     top: 4px;
     left: 90px;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .hero nav {
     text-align: center;
-    background-color: aquamarine;
     float: left;
     height: 100%;
     width: 50%;
@@ -66,6 +72,7 @@ body {
 
 .hero nav ul {
     position: absolute;
+    top: 20px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -75,10 +82,55 @@ body {
     display: inline-block;
     text-align: center;
     padding: 10px;
+    margin-left: 55px;
+    box-sizing: border-box;
 }
 
 .hero nav a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Motto and button*/
+.hero-content {
+    width: 100%;
+    height: calc(100% - 80px);
+    position: relative;
+}
+
+.motto {
+    text-shadow: 3px 3px 5px #000;
+    position: absolute;
+    bottom: 120px;
+    left: 650px;
+    width: 600px;
+    height: 100px;
+    color: #fff;
+}
+
+.motto h4 {
+    font-size: 45px;
+    font-weight: 250;
+    margin: 0;
+}
+
+.motto p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.hero-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 925px;
+    width: 220px;
+    height: 54px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 15px;
     color: #fff;
 }
