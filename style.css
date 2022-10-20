@@ -450,12 +450,72 @@ body {
     width: 1590px;
     height: 500px;
     margin: 90px auto;
-    border: 1px solid black;
 }
 
 .team-item {
     width: 340px;
     height: 500px;
-    border: 1px solid black;
     float: left;
+    
+    margin: 0 25px;
+    background-color: #3F3F3F;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.team-img {
+    width: 100%;
+    height: 415px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.rrss {
+    height: 50px;
+    width: 155px;
+    margin: 0 auto;
+    display: none;
+}
+
+.team-item:hover {
+    box-shadow: 5px 5px 10px #3F3F3F;
+    transform: translate(-5px, -5px);
+    cursor: pointer;
+}
+
+.lara {
+    background-image: url(img/team/empleada1.jpg);
+}
+
+.dan {
+    background-image: url(img/team/empleado2.jpg);
+}
+
+.max {
+    background-image: url(img/team/empleado3.jpg);
+}
+
+.emma {
+    background-image: url(img/team/empleada4.jpg);
+}
+
+.team-content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team-content h4{
+    color: #fff;
+    font-size: 1.4375em; /* 23 / 16 */
+    font-weight: 300;
+    margin: 0;
+}
+
+.team-content p {
+    margin: 10px 0;
+    color: #FF960B;
+    font-size: 1em;
+    font-weight: 200;
 }
