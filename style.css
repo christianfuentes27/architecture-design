@@ -472,17 +472,32 @@ body {
     background-position: center center;
 }
 
-.rrss {
-    height: 50px;
-    width: 155px;
+.team-img .rrss {
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
-    display: none;
+    text-align: center;
+    display: inline-block;
+    opacity: 0;
+}
+
+.team-img img {
+    width: 34px;
+    padding: 10px;
+    margin-top: 350px;
 }
 
 .team-item:hover {
     box-shadow: 5px 5px 10px #3F3F3F;
     transform: translate(-5px, -5px);
     cursor: pointer;
+}
+
+.rrss:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition-duration: .5s;
+    transition-timing-function: ease;
 }
 
 .lara {
