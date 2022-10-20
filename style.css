@@ -396,7 +396,49 @@ body {
 }
 
 /* Dreams */
-/* .dreams {
+.dreams {
     height: 420px;
     width: 100%;
-} */
+
+    background-image: url(img/dreams/dreams.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dreams-content {
+    margin: 0 auto;
+    width: 600px;
+    height: 115px;
+    text-align: right;
+
+    padding-top: 40px;
+}
+
+.dreams h4 {
+    font-size: 28px; /* 28 / 16 */
+    font-weight: 400;
+    color: #3F3F3F;
+    margin: 0;
+}
+
+.dreams .start-btn {
+    width: 230px;
+    height: 50px;
+    border: 1px solid #3F3F3F;
+    box-sizing: border-box;
+
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    font-size: 1.25em; /*20 / 16*/
+    padding-top: 9px;
+
+    transition: .5s;
+    transition-timing-function: ease;
+}
+
+.start-btn:hover {
+    cursor: pointer;
+    background-color: #FF960B;
+}
