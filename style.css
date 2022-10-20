@@ -149,6 +149,7 @@ body {
 
 /* Welcome title */
 .welcome-title {
+    text-align: center;
     width: 200px;
     height: 50px;
     font-size: 2.5em;
@@ -288,6 +289,7 @@ body {
 }
 
 .services-title {
+    text-align: center;
     width: 200px;
     height: 50px;
     font-size: 2.5em;
@@ -427,6 +429,7 @@ body {
 
 /* Team title */
 .team-title {
+    text-align: center;
     width: 10.526315%; /* 200 / 1900 */
     height: 4.629629%; /* 50 / 1080 */
     font-size: 2.5em;
@@ -543,6 +546,7 @@ body {
 
 /* Goals title */
 .goals-title {
+    text-align: center;
     width: 200px;
     height: 50px;
     font-size: 2.5em;
@@ -554,6 +558,33 @@ body {
 .goals-container {
     width: 1650px;
     height: 755px;
-    margin: 0 auto;
+    margin: 50px auto;
     border: 1px solid black;
+}
+
+.goals-item {
+    display: inline-block;
+    width: 820px;
+    height: 375px;
+    border: 1px solid black;
+}
+
+.goals-item img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.goals-item .left-circles {
+    float: right;
+    margin-right: 20px;
+}
+
+.goals-item .right-circles {
+    float: left;
+    margin-left: 20px;
+}
+
+.goals-content {
+    width: 440px;
+    height: 220px;
 }
