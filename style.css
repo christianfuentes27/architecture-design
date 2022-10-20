@@ -157,30 +157,6 @@ body {
     margin-top: 100px;
 }
 
-.marks {
-    position: relative;
-}
-
-.markgray {
-    position: absolute;
-    bottom: 150px; 
-    right: 43.75%; 
-    width: 30px;
-    height: 10px;
-    border-top: 2px solid #3F3F3F;
-    border-right: 2px solid #3F3F3F;
-}
-
-.markorange {
-    position: absolute;
-    top: -110px;
-    left: 835px;
-    width: 30px;
-    height: 10px;
-    border-left: 2px solid #FF960B;
-    border-bottom: 2px solid #FF960B;
-}
-
 /* Welcome intro text */
 .welcome-intro {
     margin: auto;
@@ -441,4 +417,45 @@ body {
 .start-btn:hover {
     cursor: pointer;
     background-color: #FF960B;
+}
+
+/* Team */
+.team {
+    height: 100%;
+    width: 100%;
+}
+
+/* Team title */
+.team-title {
+    width: 200px;
+    height: 50px;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Team intro text */
+.team-intro {
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.1em; /* 21 / 16 */
+    line-height: 35px;
+    text-align: center;
+    width: 47.552083%; /* 913 / 1920 */
+    color: #3F3F3F;
+}
+
+.team-container {
+    width: 1590px;
+    height: 500px;
+    margin: 90px auto;
+    border: 1px solid black;
+}
+
+.team-item {
+    width: 340px;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
 }
