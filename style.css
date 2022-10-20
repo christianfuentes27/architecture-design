@@ -136,6 +136,8 @@ body {
     cursor: pointer;
     text-shadow: none;
     font-weight: 400;
+    transition-duration: .5s;
+    transition-timing-function: ease;
 }
 
 /* Welcome */
@@ -330,24 +332,19 @@ body {
 
 .services-container {
     margin: auto;
-    width: 1630px;
+    width: 85.789473%; /* 1630 / 1900 */
     height: 730px;
-    margin-top: 10px;
-    border: 1px solid black;
+    margin-top: 30px;
 }
 
 .services-items {
-    width: 500px;
-    height: 723px; 
-    border: 1px solid black;
+    width: 30.674846%; /* 500 / 1630 */
+    height: 700px; 
     display: inline-block;
     margin: 2px 18px;
     transition-duration: .5s;
     transition-timing-function: ease;
-}
-
-.architecture .service-img {
-    background-image: url(img/services-section/service1.jpg);
+    background-color: #fff;
 }
 
 .services-items:hover {
@@ -355,23 +352,51 @@ body {
     transform: translate(-5px, -5px);
 }
 
-.interior .service-img {
-    background-image: url(img/services-section/service2.jpg);
-}
-
-.gis-planing .service-img {
-    background-image: url(img/services-section/service3.jpg);
-}
-
 .service-img {
     width: 100%;
     height: 378px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .services-content {
     width: 100%;
-    height: 300px;
+    height: calc(100% - 378px);
+    box-sizing: border-box;
+    margin: 5px;
 }
+
+.service-content h4 {
+    font-size: 1.625em; /* 26 / 16 */
+    font-weight: 500;
+    margin: 20px 30px;
+}
+
+.service-content p {
+    font-size: 1.1em;
+    margin: 0 30px;
+    margin-bottom: 38px;
+    line-height: 27px;
+    width: 90%;
+    color: #3F3F3F;
+}
+
+.learn-btn {
+    box-sizing: border-box;
+    font-size: 1.1em;
+    width: 184px;
+    height: 40px;
+    border: 1px solid #3F3F3F;
+    background-color: #FF960B;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 30px;
+}
+
+.learn-btn:hover {
+    cursor: pointer;
+}
+
+/* Dreams */
+/* .dreams {
+    height: 420px;
+    width: 100%;
+} */
