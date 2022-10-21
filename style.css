@@ -665,3 +665,23 @@ body {
     background-color: #FF960B;
     border: none;
 }
+
+/* Testimonials */
+.testimonials {
+    height: 100%;
+    width: 100%;
+}
+
+.testimonials-title {
+    text-align: center;
+    width: 10.526315%; /* 200 / 1900 */
+    height: 4.629629%; /* 50 / 1080 */
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.arrow-right {
+    
+}
