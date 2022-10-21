@@ -558,15 +558,13 @@ body {
 .goals-container {
     width: 1650px;
     height: 755px;
-    margin: 50px auto;
-    border: 1px solid black;
+    margin: 50px auto;  
 }
 
 .goals-item {
     display: inline-block;
     width: 820px;
     height: 375px;
-    border: 1px solid black;
 }
 
 .goals-item img {
@@ -587,4 +585,32 @@ body {
 .goals-content {
     width: 440px;
     height: 220px;
+    margin-top: 30px;
+}
+
+.goals-content p {
+    font-size: 1.1em; 
+    font-weight: 300;
+    color: #3F3F3F;
+}
+
+.goals-content h4 {
+    font-size: 1.5em; /* 24 / 16 */
+    font-weight: 500;
+}
+
+.goals-content span {
+    color: #FF960B;
+}
+
+.right {
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.left {
+    float: right;
+    text-align: right;
+    margin-right: 40px;
 }
