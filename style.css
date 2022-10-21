@@ -614,3 +614,54 @@ body {
     text-align: right;
     margin-right: 40px;
 }
+
+/* Powering */
+.powering {
+    height: 420px;
+    width: 100%;
+
+    background-image: url(img/powering/livingroom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.powering-content {
+    margin: 0 auto;
+    width: 58.947368%; /* 1120 / 1900 */
+    height: 100%;
+    text-align: center;
+    text-shadow: 5px 5px 8px #3F3F3F;
+}
+
+.powering-content h4 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.powering-content span {
+    color: #FF960B;
+    font-weight: 700;
+}
+
+.powering-content .start-btn {
+    text-shadow: none;
+    box-sizing: border-box;
+    width: 250px;
+    height: 64px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5em; /* 24 / 16 */
+    margin: 0 auto;
+    padding: 14px;
+
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.powering-content .start-btn:hover {
+    background-color: #FF960B;
+    border: none;
+}
