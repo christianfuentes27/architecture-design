@@ -103,21 +103,24 @@ body {
     text-shadow: 3px 3px 5px #000;
     margin: 0 auto;
     margin-top: 640px;
-    width: 31.578947%; /* 600 / 1900 */
+    /* width: 31.578947%; 600 / 1900 */
+    width: 37.5em; /* 600 / 1900 */
+    min-width: 400px;
     height: 200px;
     color: #fff;
 }
 
 .motto h4 {
-    /* font-size: 2.8125em;  */
-    font-size: 2.4vw;
+    font-size: 2.8125em; 
+    /* font-size: 2.4vw; */
+    min-width: 1.5vw;
     font-weight: 250;
     margin: 0;
 }
 
 .motto p {
-    /* font-size: 1em; */
-    font-size: 0.8vw;
+    font-size: 1em;
+    /* font-size: 0.8vw; */
     font-weight: 200;
 }
 
@@ -130,8 +133,9 @@ body {
     border: 1px solid #fff;
     text-align: center;
     font-weight: 200;
-    font-size: 1em; /*16 / 16*/
+    font-size: 1em; 
     box-sizing: border-box;
+    min-width: 150px;
     padding: 15px;
     color: #fff;
 }
