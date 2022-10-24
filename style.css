@@ -1070,7 +1070,7 @@ footer {
 }
 
 .prices h1 {
-    margin: 100px 0;
+    padding: 70px 0;
     text-align: center;
     font-size: 40px;
     font-weight: 400;
@@ -1105,6 +1105,14 @@ footer {
     margin: 35px 0;
 }
 
+.custom-title {
+    font-size: 72px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
 .prices-item h4 {
     font-size: 24px;
     font-weight: 500;
@@ -1127,6 +1135,25 @@ footer {
     width: 175px;
     height: 50px;
     border: 1px solid #3F3F3F;
+}
+
+.target {
+    margin: auto;
+    font-size: 14px;
+    width: 180px;
+    height: 30px;
+    color: white;
+    box-sizing: border-box;
+    font-style: italic;
+    padding: 5px;
+}
+
+.recommended {
+    background-color: #3CD67E;
+}
+
+.popular {
+    background-color: #745BCE;
 }
 
 .begin-btn:hover {
@@ -1168,7 +1195,7 @@ footer {
 .custom-price {
     height: 80px;
     width: 400px;
-    margin: 90px auto;
+    margin: 70px auto;
 }
 
 .custom-price > * {
