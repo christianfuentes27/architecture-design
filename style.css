@@ -1066,8 +1066,15 @@ footer {
 .prices {
     height: 100%;
     width: 100%;
-    padding-top: 200px;
     box-sizing: border-box;
+}
+
+.prices h1 {
+    margin: 100px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #3F3F3F;
 }
 
 .prices-container {
@@ -1079,10 +1086,16 @@ footer {
 .prices-item {
     height: 500px;
     width: 350px;
-    border: 1px solid #3F3F3F;
+    border: 1px solid #b3b3b3;
     float: left;
     margin-left: 40px;
     text-align: center;
+    transition: .5s ease;
+}
+
+.prices-item:hover {
+    box-shadow: 0 5px 8px #9b9b9b;
+    transform: translate(0, -10px);
 }
 
 .prices-item h2 {
@@ -1096,6 +1109,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     margin: 0;
+    color: #3F3F3F;
 }
 
 .prices-item p {
@@ -1103,6 +1117,7 @@ footer {
     font-weight: 400;
     margin-top: 40px;
     line-height: 21px;
+    color: #3F3F3F;
 }
 
 .begin-btn {
@@ -1112,6 +1127,10 @@ footer {
     width: 175px;
     height: 50px;
     border: 1px solid #3F3F3F;
+}
+
+.begin-btn:hover {
+    cursor: pointer;
 }
 
 .basic-btn {
@@ -1144,4 +1163,29 @@ footer {
 
 .extended {
     color: #C899FF;
+}
+
+.custom-price {
+    height: 80px;
+    width: 400px;
+    margin: 90px auto;
+}
+
+.custom-price > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.custom-price h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3F3F3F;
+}
+
+.custom-price .phone {
+    margin: 0 5px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(img/prices/phone.svg);
 }
