@@ -1026,24 +1026,27 @@ footer {
 }
 
 /* PRICES */
-.hero-prices {
+.hero-external {
     height: 500px;
     width: 100%;
 
-    background-image: url(img/prices/hero4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.hero-prices-container {
+.hero-prices {
+    background-image: url(img/prices/hero4.jpg);
+}
+
+.hero-external-container {
     position: relative;
     width: 100%;
     height: 420px;
     color: #fff;
 }
 
-.prices-motto {
+.external-motto {
     width: 300px;
     height: 200px;
     position: absolute;
@@ -1052,14 +1055,17 @@ footer {
     text-shadow: 5px 5px 7px black;
 }
 
-.prices-motto h4 {
+.external-motto h4 {
     font-size: 40px;
     font-weight: 300;
     margin: 0;
 }
 
-.prices-motto p {
+.external-motto p {
     font-size: 25px;
+}
+
+.prices-motto p {
     font-weight: 300;
 }
 
@@ -1215,4 +1221,176 @@ footer {
     width: 25px;
     height: 25px;
     background-image: url(img/prices/phone.svg);
+}
+
+/* CONTACT */
+.hero-contact {
+    background-image: url(img/contact/contact-hero.jpg);
+}
+
+.contact-motto p {
+    font-weight: 100;
+}
+
+iframe {
+    width: 100%;
+    height: 370px;
+}
+
+.contact {
+    width: 100%;
+    height: 870px;
+    padding: 100px 0;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+}
+
+.contact-container {
+    margin: auto;
+    width: 1160px;
+    height: 670px;
+    border: 1px solid black;
+}
+
+.contact-part {
+    width: 440px;
+    height: 670px;
+    background-color: #3F3F3F;
+    float: left;
+}
+
+.contact-item {
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.location-img {
+    width: 35px;
+    height: 45px;
+
+    background-image: url(img/contact/location.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    float: left;
+}
+
+.smartphone-img {
+    width: 35px;
+    height: 45px;
+
+    background-image: url(img/contact/smartphone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    float: left;
+}
+
+.gmail-img {
+    width: 35px;
+    height: 25px;
+
+    background-image: url(img/contact/gmail.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    float: left;
+}
+
+.contact-content {
+    float: left;
+    color: #fff;
+    margin-left: 26px;
+}
+
+.contact-content h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact-content p {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.contact-content .redes {
+    width: 100%;
+    height: 325px;
+    margin-top: 40px;
+}
+
+.contact-content .redes .rrss-item {
+    height: 25px;
+    width: 25px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 25px;
+    float: left;
+}
+
+.redes img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 25px;
+}
+
+.form-part {
+    width: calc(100% - 440px);
+    height: 670px;
+    float: left;
+}
+
+.form-part form {
+    margin-left: 90px;
+}
+
+.form-part label {
+    display: block;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.form-part input {
+    outline: none;
+    margin-top: 22px;
+    font-size: 20px;
+    padding: 0;
+    width: 530px;
+    height: 30px;
+}
+
+.form-part textarea {
+    outline: none;
+    font-size: 20px;
+    resize: none;
+    width: 530px;
+    height: 185px;
+    margin-top: 22px;
+}
+
+.form-part .submit-btn {
+    display: block;
+    width: 160px;
+    height: 45px;
+    background-color: #FF960B;
+    text-align: center;
+    border: 1px solid black;
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    box-sizing: border-box;
+    margin: 30px 0;
+    padding: 8px;
+}
+
+.form-part .submit-btn:hover {
+    cursor: pointer;
 }
