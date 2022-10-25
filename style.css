@@ -1423,8 +1423,8 @@ iframe {
 }
 
 .projects-container {
-    width: 1000px;
-    height: 1070px;
+    width: 1000px; 
+    height: 1070px; 
     margin: auto;
     box-sizing: border-box;
 }
@@ -1509,7 +1509,6 @@ iframe {
 }
 
 .review {
-    /* border: 1px solid black; */
     border-top: 1px dotted #3F3F3F;
     width: 90%;
     height: 45px;
@@ -1586,4 +1585,12 @@ iframe {
 
 .page3 {
     left: 60px;
+}
+
+/* -------------------------------------- PROJECTS  ---------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
+    .projects-container {
+        background-color: #33C7EF;
+    }
 }
