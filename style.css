@@ -13,7 +13,8 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Hero section */
+/* -------------------------------------- HERO  ---------------------------------------*/
+
 
 .hero {
     height: 100%;
@@ -25,7 +26,7 @@ body {
     background-size: cover;
 }
 
-/* Navbar  */
+/* -------------------------------------- NAVBAR  ---------------------------------------*/
 
 .navbar {
     width: 100%;
@@ -153,7 +154,8 @@ nav a {
     transition-timing-function: ease;
 }
 
-/* Welcome */
+/* -------------------------------------- WELCOME  ---------------------------------------*/
+
 .welcome {
     height: 100%;
     width: 100%;
@@ -294,7 +296,8 @@ nav a {
     border-bottom: 1px solid #000;
 }
 
-/* Services */
+/* -------------------------------------- SERVICES  ---------------------------------------*/
+
 .services {
     height: 100%;
     width: 100%;
@@ -386,7 +389,8 @@ nav a {
     cursor: pointer;
 }
 
-/* Dreams */
+/* -------------------------------------- DREAMS  ---------------------------------------*/
+
 .dreams {
     height: 420px;
     width: 100%;
@@ -434,7 +438,8 @@ nav a {
     background-color: #FF960B;
 }
 
-/* Team */
+/* -------------------------------------- TEAM  ---------------------------------------*/
+
 .team {
     height: 100%;
     width: 100%;
@@ -551,7 +556,8 @@ nav a {
     font-weight: 200;
 }
 
-/* Goals */
+/* -------------------------------------- GOALS  ---------------------------------------*/
+
 .goals {
     height: 100%;
     width: 100%;
@@ -628,7 +634,8 @@ nav a {
     margin-right: 40px;
 }
 
-/* Powering */
+/* -------------------------------------- POWERING  ---------------------------------------*/
+
 .powering {
     height: 420px;
     width: 100%;
@@ -679,7 +686,8 @@ nav a {
     border: 1px solid #FF960B;
 }
 
-/* Testimonials */
+/* -------------------------------------- TESTIMONIALS  ---------------------------------------*/
+
 .testimonials {
     height: 100%;
     width: 100%;
@@ -852,7 +860,7 @@ nav a {
     width: 120px;
 }
 
-/* Footer */
+/* -------------------------------------- FOOTER  ---------------------------------------*/
 
 footer {
     height: 820px;
@@ -1026,7 +1034,8 @@ footer {
     border-right: 1px solid white;
 }
 
-/* PRICES */
+/* -------------------------------------- PRICES  ---------------------------------------*/
+
 .hero-external {
     height: 500px;
     width: 100%;
@@ -1224,7 +1233,7 @@ footer {
     background-image: url(img/prices/phone.svg);
 }
 
-/* CONTACT */
+/* -------------------------------------- CONTACT  ---------------------------------------*/
 .hero-contact {
     background-image: url(img/contact/contact-hero.jpg);
 }
@@ -1394,4 +1403,173 @@ iframe {
 
 .form-part .submit-btn:hover {
     cursor: pointer;
+}
+
+/* -------------------------------------- PROJECTS  ---------------------------------------*/
+
+.hero-projects {
+    background-image: url(img/projects/hero-project.jpg);
+}
+
+.projects-motto {
+    font-weight: 200;
+}
+
+.projects {
+    width: 100%;
+    height: 1260px;
+    box-sizing: border-box;
+    padding-top: 85px;
+}
+
+.projects-container {
+    width: 1000px;
+    height: 1070px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.project-item {
+    width: 850px;
+    height: 300px;
+    border: 1px solid #3F3F3F;
+    margin-bottom: 85px;
+}
+
+.project-left {
+    float: left;
+}
+
+.project-right {
+    float: right;
+}
+
+.project-img {
+    width: 500px;
+    height: 300px;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project1 {
+    background-image: url(img/projects/project2.jpg);
+    float: left;
+}
+
+.project2 {
+    background-image: url(img/projects/project3.jpg);
+    float: right;
+}
+
+.project3 {
+    background-image: url(img/projects/project1.jpg);
+    float: left;
+}
+
+.project-content {
+    box-sizing: border-box;
+    float: left;
+    width: 350px;
+    height: 300px;
+    padding-left: 30px;
+}
+
+.project-content h4 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.project-content p {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3F3F3F;
+    display: block;
+}
+
+.rating p, .stars {
+    display: inline-block;
+}
+
+.rating p {
+    margin-right: 10px;
+}
+
+.rating img {
+    width: 20px;
+    height: 20px;
+}
+
+.review {
+    /* border: 1px solid black; */
+    border-top: 1px dotted #3F3F3F;
+    width: 90%;
+    height: 45px;
+    margin: 0;
+    margin-top: 45px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.review > * {
+    float: left;
+}
+
+.visits > * {
+    float: left;
+}
+
+.comments > * {
+    float: left;
+}
+
+.review img {
+    height: 12px;
+    width: 20px;
+}
+
+.review p {
+    font-size: 12px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+/* -------------------------------------- PROJECTS  ---------------------------------------*/
+
+.pages {
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 40px auto;
+    width: 80px;
+    height: 25px;
+}
+
+.page-item {
+    position: absolute;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.page1 {
+    left: 0;
+    background-color: #3F3F3F;
+    color: white;
+}
+
+.page2 {
+    left: 30px;
+}
+
+.page3 {
+    left: 60px;
 }
