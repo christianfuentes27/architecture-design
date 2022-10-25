@@ -1434,6 +1434,11 @@ iframe {
     height: 300px;
     border: 1px solid #3F3F3F;
     margin-bottom: 85px;
+    transition: .5s ease;
+}
+
+.project-item:hover {
+    box-shadow: 2px 2px 5px #3F3F3F;
 }
 
 .project-left {
@@ -1538,7 +1543,9 @@ iframe {
     margin-right: 5px;
 }
 
-/* -------------------------------------- PROJECTS  ---------------------------------------*/
+.review .read-more:hover {
+    cursor: pointer;
+}
 
 .pages {
     text-align: center;
@@ -1558,6 +1565,13 @@ iframe {
     display: inline-block;
     border: 1px solid black;
     font-size: 14px;
+    transition: .25s ease;
+}
+
+.page-item:hover {
+    color: white;
+    background-color: #3F3F3F;
+    cursor: pointer;
 }
 
 .page1 {
