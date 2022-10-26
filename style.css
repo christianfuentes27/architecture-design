@@ -888,14 +888,14 @@ nav a {
 /* -------------------------------------- FOOTER  ---------------------------------------*/
 
 footer {
-    height: 820px;
+    height: 745px;
     width: 100%;
     background-color: #000;
     /* padding-top: 120px; */
 }
 
 .footer-items {
-    width: 760px;
+    width: 720px; /* 760 / 1920 */
     height: 620px;
     border: 1px solid black;
     margin: auto;
@@ -905,53 +905,44 @@ footer {
     height: 60px;
     width: 100%;
     box-sizing: border-box;
-    position: relative;
     padding-top: 100px;
 }
 
-.logo-img {
-    width: 60px;
-    height: 60px;
-    background-image: url(img/hero/logo.png);
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
+.logo-footer .logobg {
+    left: 0;
+    top: 100px;
 }
 
-.logo h4 {
-    display: inline-block;
-    font-weight: 200;
-    font-size: 1.5em;
-    /* 24 / 16 */
-    margin: 0;
-    position: absolute;
+.logo-footer span {
     top: 90px;
-    margin-left: 80px;
-    margin-bottom: 10px;
 }
 
 .footer-content {
     height: 290px;
-    width: 875px;
+    width: 100%; 
     margin-top: 250px;
     color: #fff;
 }
 
-.titles {
+.footer-content h4 {
     width: 100%;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-.titles h4 {
-    display: inline-block;
-    margin-right: 150px;
-    font-size: 1.25em;
-    /*20 / 16*/
+.footer-content p {
+    font-size: 1em;
+}
+
+.about-us h4 {
+    margin-left: 45px;
+    font-size: 18px;
 }
 
 .column {
-    width: 225px;
-    height: 200px;
+    width: 25%;
+    height: 220px;
     float: left;
     font-size: 18px;
     font-weight: 100;
@@ -960,12 +951,12 @@ footer {
 
 .support {
     box-sizing: border-box;
-    padding-left: 40px;
+    padding: 0 40px;
 }
 
 .about-us {
     float: left;
-    width: 300px;
+    width: 49%;
     height: 200px;
 }
 
@@ -1031,7 +1022,6 @@ footer {
     width: 530px;
     height: 90px;
     color: #fff;
-    padding-top: 75px;
     margin: auto;
     text-align: center;
     font-size: 12px;
@@ -1510,14 +1500,14 @@ iframe {
 }
 
 .project-content h4 {
-    font-size: 19px;
+    font-size: 1.1875em; /* 19 / 16 */
     font-weight: 500;
     margin-bottom: 30px;
 }
 
 .project-content p {
     margin: 20px 0;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
     color: #3F3F3F;
     display: block;
@@ -1544,7 +1534,6 @@ iframe {
     margin: 0;
     margin-top: 45px;
     vertical-align: middle;
-    box-sizing: border-box;
     padding: 10px;
 }
 
@@ -1566,7 +1555,7 @@ iframe {
 }
 
 .review p {
-    font-size: 12px;
+    font-size: 0.75em; /* 12 / 16 */
     margin: 0;
     margin-right: 5px;
 }
@@ -1618,6 +1607,7 @@ iframe {
 
 
 @media only screen and (max-width: 1200px) {
+
     /* -------------------------------------- NAVBAR  ---------------------------------------*/
     .menu-bars {
         background-image: url(img/hero/menu-bars.svg);
@@ -1630,7 +1620,7 @@ iframe {
         float: right;
     }
 
-    .menu-bars:hover + nav {
+    .menu-bars:hover+nav {
         display: block;
     }
 
@@ -1650,13 +1640,13 @@ iframe {
     nav ul {
         float: right;
         display: block;
-        padding-left: 50px;
+        padding-left: 30px;
         background-color: rgba(0, 0, 0, 0.2);
     }
 
     nav ul li {
         display: block;
-        margin-right: 30px;
+        margin-right: 20px;
         margin-bottom: 40px;
         text-align: right;
     }
@@ -1675,26 +1665,223 @@ iframe {
         margin-bottom: 85px;
         float: none;
         display: block;
-        width: 90%;
+        width: 70%;
         height: 300px;
     }
 
     .project-img {
-        width: 500px;
+        width: 60%;
         height: 300px;
+    }
+
+    .rating img {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    .project-content {
+        width: 40%;
+        height: 300px;
+    }
+
+    .project-content h4 {
+        font-size: 1.6vw; 
+    }
+
+    .project-content p {
+        font-size: 1.4vw;
+    }
+
+    .review {
+        margin-top: 30px;
+    }
+
+    .review p {
+        margin-bottom: 0.5vw;
+    }
+
+    .read-more {
+        margin-bottom: 10vh;
+    }
+
+    .read-more, .visits, .comments {
+        display: block;
+        float: none;
+    }
+
+    .review p {
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    /* -------------------------------------- PROJECTS  ---------------------------------------*/
+
+    .projects {
+        height: 300vh;
+    }
+
+    .projects-container {
+        height: 275vh;
+        width: 90%;
+    }
+
+    .project-img, .project-content {
+        float: none;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-content {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid rgba(63, 63, 63, 0.5);
+    }
+
+    .project-item {
+        border: none;
+        height: 30%;
+    }
+
+    .project-content h4 {
+        font-size: 1.1875em;
+    }
+
+    .project-content p {
+        font-size: 1em;
+    }
+
+    .rating img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .review p {
+        font-size: 10px;
+    }
+
+    /* -------------------------------------- FOOTER  ---------------------------------------*/
+    .footer-items {
+        width: 100%;
+    }
+
+    .footer-items .logo , .footer-content{
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    /* -------------------------------------- FOOTER  ---------------------------------------*/
+    footer {
+        height: 175vh;
+    }
+
+    .footer-items .logo {
+        margin: auto;
+        width: 100%;
+    }
+
+    .footer-items img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-footer .logobg {
+        left: 40px;
+    }
+
+    .logo-footer span {
+        left: 120px;
+    }
+
+    .footer-items .logo h4 {
+        font-size: 1.2em;
+        top: 85px;
+        margin-left: 60px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-items {
+        width: 100%;
+        height: 155vh;
+    }
+
+    .footer-content {
+        margin: 0;
+    }
+
+    .footer-items .logo {
+        float: none;
+        margin: 0 auto;
+        height: 200px;
+        text-align: center;
+    }
+    
+    .column {
+        border: none;
+        float: none;
+        text-align: center;
+        width: 50%;
+        margin: 80px auto;
+    }
+
+    .about-us {
+        margin: 0 auto;
+        float: none;
+        padding: 0;
+        width: 60%;
+    }
+
+    .about-us-content {
+        margin: 0;
+        padding-left: 2vw;
+    }
+
+    .about-us .rrss {
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .about-us .rrss> div {
+        margin-right: 20px;
+    }
+    
+    .about-us .location, .about-us .phone {
+        margin: 0;
+    }
+
+    .about-us h4 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .about-us p {
+        margin: 20px 0;
+        width: 200px;
+        float: none;
+    }
+
+    .support {
+        padding: 0;
     }
 }
 
 @media only screen and (max-width: 500px) {
+
+    /* -------------------------------------- NAVBAR  ---------------------------------------*/
     .logobg {
         top: 20px;
         height: 40px;
         width: 40px;
     }
-    
+
     .logo span {
         left: 80px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .menu-bars {
@@ -1703,7 +1890,7 @@ iframe {
     }
 
     .external-motto {
-        left: 50px;
+        left: 20px;
     }
 
     .external-motto h4 {
@@ -1712,5 +1899,20 @@ iframe {
 
     .external-motto p {
         font-size: 20px;
+    }
+
+    .project-item {
+        width: 90%;
+    }
+
+    .project1, .project3 {
+        background-position: center left;
+    }
+
+    /* -------------------------------------- FOOTER  ---------------------------------------*/
+
+    .logo-footer span {
+        top: 85px;
+        left: 100px;
     }
 }
