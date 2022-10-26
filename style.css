@@ -63,7 +63,8 @@ body {
     position: absolute;
     top: 4px;
     left: 90px;
-    font-size: 1.25em; /* 20 / 16 */
+    font-size: 1.25em;
+    /* 20 / 16 */
     font-weight: 200;
     text-shadow: 5px 5px 8px black;
 }
@@ -87,7 +88,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     text-align: left;
-    margin-right: 50px; 
+    margin-right: 50px;
     box-sizing: border-box;
 }
 
@@ -108,14 +109,15 @@ nav a {
     margin: 0 auto;
     margin-top: 640px;
     /* width: 31.578947%; 600 / 1900 */
-    width: 37.5em; /* 600 / 1900 */
+    width: 37.5em;
+    /* 600 / 1900 */
     min-width: 400px;
     height: 200px;
     color: #fff;
 }
 
 .motto h4 {
-    font-size: 2.8125em; 
+    font-size: 2.8125em;
     /* font-size: 2.4vw; */
     min-width: 1.5vw;
     font-weight: 250;
@@ -137,7 +139,7 @@ nav a {
     border: 1px solid #fff;
     text-align: center;
     font-weight: 200;
-    font-size: 1em; 
+    font-size: 1em;
     box-sizing: border-box;
     min-width: 150px;
     padding: 15px;
@@ -177,17 +179,20 @@ nav a {
 .welcome-intro {
     margin: auto;
     margin-top: 50px;
-    font-size: 1.1em; /* 21 / 16 */
+    font-size: 1.1em;
+    /* 21 / 16 */
     line-height: 35px;
     text-align: center;
-    width: 47.552083%; /* 913 / 1920 */
+    width: 47.552083%;
+    /* 913 / 1920 */
     color: #3F3F3F;
 }
 
 /* Welcome content */
 .welcome-container {
     margin: 70px auto;
-    width: 71.315789%; /* 1355 / 1900 */
+    width: 71.315789%;
+    /* 1355 / 1900 */
     height: 600px;
 }
 
@@ -317,23 +322,27 @@ nav a {
 .services-intro {
     margin: auto;
     margin-top: 30px;
-    font-size: 1.1em; /* 21 / 16 */
+    font-size: 1.1em;
+    /* 21 / 16 */
     line-height: 35px;
     text-align: center;
-    width: 47.552083%; /* 913 / 1920 */
+    width: 47.552083%;
+    /* 913 / 1920 */
     color: #3F3F3F;
 }
 
 .services-container {
     margin: auto;
-    width: 85.789473%; /* 1630 / 1900 */
+    width: 85.789473%;
+    /* 1630 / 1900 */
     height: 730px;
     margin-top: 30px;
 }
 
 .services-items {
-    width: 30.674846%; /* 500 / 1630 */
-    height: 700px; 
+    width: 30.674846%;
+    /* 500 / 1630 */
+    height: 700px;
     display: inline-block;
     margin: 2px 18px;
     transition-duration: .5s;
@@ -359,7 +368,8 @@ nav a {
 }
 
 .service-content h4 {
-    font-size: 1.625em; /* 26 / 16 */
+    font-size: 1.625em;
+    /* 26 / 16 */
     font-weight: 500;
     margin: 20px 30px;
 }
@@ -411,7 +421,8 @@ nav a {
 }
 
 .dreams h4 {
-    font-size: 28px; /* 28 / 16 */
+    font-size: 28px;
+    /* 28 / 16 */
     font-weight: 400;
     color: #3F3F3F;
     margin: 0;
@@ -426,7 +437,8 @@ nav a {
     margin-top: 20px;
     float: right;
     text-align: center;
-    font-size: 1.25em; /*20 / 16*/
+    font-size: 1.25em;
+    /*20 / 16*/
     padding-top: 9px;
 
     transition: .5s;
@@ -448,8 +460,10 @@ nav a {
 /* Team title */
 .team-title {
     text-align: center;
-    width: 10.526315%; /* 200 / 1900 */
-    height: 4.629629%; /* 50 / 1080 */
+    width: 10.526315%;
+    /* 200 / 1900 */
+    height: 4.629629%;
+    /* 50 / 1080 */
     font-size: 2.5em;
     font-weight: 400;
     margin: auto;
@@ -460,24 +474,29 @@ nav a {
 .team-intro {
     margin: auto;
     margin-top: 50px;
-    font-size: 1.1em; /* 21 / 16 */
+    font-size: 1.1em;
+    /* 21 / 16 */
     line-height: 35px;
     text-align: center;
-    width: 47.552083%; /* 913 / 1920 */
+    width: 47.552083%;
+    /* 913 / 1920 */
     color: #3F3F3F;
 }
 
 .team-container {
-    width: 83.684210%; /* 1590 / 1900 */
-    height: 46.296296%; /* 500 / 1080 */
+    width: 83.684210%;
+    /* 1590 / 1900 */
+    height: 46.296296%;
+    /* 500 / 1080 */
     margin: 90px auto;
 }
 
 .team-item {
-    width: 21.383647%; /* 340 / 1590 */
+    width: 21.383647%;
+    /* 340 / 1590 */
     height: 500px;
     float: left;
-    
+
     margin: 0 25px;
     background-color: #3F3F3F;
     transition-duration: .5s;
@@ -542,9 +561,10 @@ nav a {
     margin-top: 10px;
 }
 
-.team-content h4{
+.team-content h4 {
     color: #fff;
-    font-size: 1.4375em; /* 23 / 16 */
+    font-size: 1.4375em;
+    /* 23 / 16 */
     font-weight: 300;
     margin: 0;
 }
@@ -577,7 +597,7 @@ nav a {
 .goals-container {
     width: 1650px;
     height: 755px;
-    margin: 50px auto;  
+    margin: 50px auto;
 }
 
 .goals-item {
@@ -608,13 +628,14 @@ nav a {
 }
 
 .goals-content p {
-    font-size: 1.1em; 
+    font-size: 1.1em;
     font-weight: 300;
     color: #3F3F3F;
 }
 
 .goals-content h4 {
-    font-size: 1.5em; /* 24 / 16 */
+    font-size: 1.5em;
+    /* 24 / 16 */
     font-weight: 500;
 }
 
@@ -648,7 +669,8 @@ nav a {
 
 .powering-content {
     margin: 0 auto;
-    width: 58.947368%; /* 1120 / 1900 */
+    width: 58.947368%;
+    /* 1120 / 1900 */
     height: 100%;
     text-align: center;
     text-shadow: 5px 5px 8px #3F3F3F;
@@ -673,7 +695,8 @@ nav a {
     height: 64px;
     border: 1px solid #fff;
     color: #fff;
-    font-size: 1.5em; /* 24 / 16 */
+    font-size: 1.5em;
+    /* 24 / 16 */
     margin: 0 auto;
     padding: 14px;
 
@@ -696,8 +719,10 @@ nav a {
 
 .testimonials-title {
     text-align: center;
-    width: 10.526315%; /* 200 / 1900 */
-    height: 4.629629%; /* 50 / 1080 */
+    width: 10.526315%;
+    /* 200 / 1900 */
+    height: 4.629629%;
+    /* 50 / 1080 */
     font-size: 2.5em;
     font-weight: 400;
     margin: auto;
@@ -897,7 +922,8 @@ footer {
 .logo h4 {
     display: inline-block;
     font-weight: 200;
-    font-size: 1.5em; /* 24 / 16 */
+    font-size: 1.5em;
+    /* 24 / 16 */
     margin: 0;
     position: absolute;
     top: 90px;
@@ -919,7 +945,8 @@ footer {
 .titles h4 {
     display: inline-block;
     margin-right: 150px;
-    font-size: 1.25em; /*20 / 16*/
+    font-size: 1.25em;
+    /*20 / 16*/
 }
 
 .column {
@@ -942,7 +969,7 @@ footer {
     height: 200px;
 }
 
-.about-us > div {
+.about-us>div {
     margin-left: 45px;
 }
 
@@ -975,9 +1002,9 @@ footer {
     margin-top: 40px;
     height: 25px;
     width: 100%;
-} 
+}
 
-.about-us .rrss > div {
+.about-us .rrss>div {
     height: 25px;
     width: 25px;
     display: inline-block;
@@ -985,7 +1012,7 @@ footer {
 }
 
 .pinterest {
-    background-image: url(img/footer/pinterest.svg);    
+    background-image: url(img/footer/pinterest.svg);
 }
 
 .instagram {
@@ -1022,7 +1049,7 @@ footer {
     margin-top: 30px;
 }
 
-.copy-content > div {
+.copy-content>div {
     width: 30%;
     height: 100%;
     display: inline-block;
@@ -1030,7 +1057,8 @@ footer {
     text-align: center;
 }
 
-.terms-conditions, .privacy {
+.terms-conditions,
+.privacy {
     border-right: 1px solid white;
 }
 
@@ -1214,7 +1242,7 @@ footer {
     margin: 70px auto;
 }
 
-.custom-price > * {
+.custom-price>* {
     display: inline-block;
     vertical-align: middle;
 }
@@ -1423,8 +1451,8 @@ iframe {
 }
 
 .projects-container {
-    width: 1000px; 
-    height: 1070px; 
+    width: 1000px;
+    height: 1070px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -1495,7 +1523,8 @@ iframe {
     display: block;
 }
 
-.rating p, .stars {
+.rating p,
+.stars {
     display: inline-block;
 }
 
@@ -1519,15 +1548,15 @@ iframe {
     padding: 10px;
 }
 
-.review > * {
+.review>* {
     float: left;
 }
 
-.visits > * {
+.visits>* {
     float: left;
 }
 
-.comments > * {
+.comments>* {
     float: left;
 }
 
@@ -1590,7 +1619,64 @@ iframe {
 /* -------------------------------------- PROJECTS  ---------------------------------------*/
 
 @media only screen and (max-width: 1200px) {
+    .menu-bars {
+        background-image: url(img/hero/menu-bars.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
+    }
+
+    .menu-bars:hover + nav {
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    nav ul {
+        float: right;
+        display: block;
+        padding-left: 50px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        text-align: right;
+    }
+
     .projects-container {
-        background-color: #33C7EF;
+        box-sizing: border-box;
+        width: 100vw;
+    }
+
+    .project-item {
+        margin: auto;
+        margin-bottom: 85px;
+        float: none;
+        display: block;
+        width: 90%;
+        height: 300px;
+    }
+
+    .project-img {
+        width: 500px;
+        height: 300px;
     }
 }
