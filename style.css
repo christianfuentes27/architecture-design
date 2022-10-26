@@ -1616,9 +1616,9 @@ iframe {
     left: 60px;
 }
 
-/* -------------------------------------- PROJECTS  ---------------------------------------*/
 
 @media only screen and (max-width: 1200px) {
+    /* -------------------------------------- NAVBAR  ---------------------------------------*/
     .menu-bars {
         background-image: url(img/hero/menu-bars.svg);
         background-size: contain;
@@ -1644,7 +1644,7 @@ iframe {
     }
 
     .logo {
-        width: 70%;
+        width: 80%;
     }
 
     nav ul {
@@ -1659,6 +1659,10 @@ iframe {
         margin-right: 30px;
         margin-bottom: 40px;
         text-align: right;
+    }
+
+    .external-motto {
+        left: 100px;
     }
 
     .projects-container {
@@ -1678,5 +1682,35 @@ iframe {
     .project-img {
         width: 500px;
         height: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logobg {
+        top: 20px;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .logo span {
+        left: 80px;
+        font-size: 1.1em;
+    }
+
+    .menu-bars {
+        width: 30px;
+        height: 30px;
+    }
+
+    .external-motto {
+        left: 50px;
+    }
+
+    .external-motto h4 {
+        font-size: 30px;
+    }
+
+    .external-motto p {
+        font-size: 20px;
     }
 }
