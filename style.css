@@ -1605,6 +1605,26 @@ iframe {
     left: 60px;
 }
 
+@media only screen and (max-width: 1600px) {
+    .prices {
+        height: 150vh;
+    }
+
+    .prices-container {
+        width: 800px;
+        height: 75%;
+    }
+
+    .prices-item {
+        margin-bottom: 40px;
+    }
+
+    .custom-price {
+        margin: 0 auto;
+        height: 10%;
+    }
+}
+
 
 @media only screen and (max-width: 1200px) {
 
