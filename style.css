@@ -1098,7 +1098,7 @@ footer {
 }
 
 .prices {
-    height: 100vh;
+    height: 900px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -1607,7 +1607,7 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
     .prices {
-        height: 150vh;
+        height: 1370px;
     }
 
     .prices-container {
