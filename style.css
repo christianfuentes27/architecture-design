@@ -1098,7 +1098,7 @@ footer {
 }
 
 .prices {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     box-sizing: border-box;
 }
@@ -1612,7 +1612,7 @@ iframe {
 
     .prices-container {
         width: 800px;
-        height: 75%;
+        height: 510px;
     }
 
     .prices-item {
@@ -1620,8 +1620,12 @@ iframe {
     }
 
     .custom-price {
-        margin: 0 auto;
-        height: 10%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .custom-price h4 {
+        margin: 0;
     }
 }
 
@@ -1738,11 +1742,11 @@ iframe {
     /* -------------------------------------- PROJECTS  ---------------------------------------*/
 
     .projects {
-        height: 300vh;
+        height: 2140px;
     }
 
     .projects-container {
-        height: 275vh;
+        height: 1950px;
         width: 90%;
     }
 
@@ -1795,7 +1799,7 @@ iframe {
 @media only screen and (max-width: 720px) {
     /* -------------------------------------- FOOTER  ---------------------------------------*/
     footer {
-        height: 110vh;
+        height: 745px;
     }
 
     .footer-items .logo {
@@ -1826,10 +1830,11 @@ iframe {
 
     .footer-items {
         width: 100%;
-        height: 100vh;
+        height: 620px;
     }
 
     .footer-content {
+        height: 75%;
         margin: 0;
     }
 
@@ -1882,9 +1887,14 @@ iframe {
         display: none;
     }
 
+    .copy h4 {
+        margin: 0;
+    }
+
     .copy {
         width: 50%;
-        height: 50px;
+        height: 20px;
+        margin: 70px auto;
     }
 
     .copy-content {
