@@ -17,13 +17,14 @@ body {
 
 
 .hero {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: black;
     background-image: url(img/hero/op.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
 
 /* -------------------------------------- NAVBAR  ---------------------------------------*/
@@ -100,49 +101,43 @@ nav a {
 
 /* Motto and button*/
 .hero-content {
+    position: absolute;
+    bottom: 20px;
+
     width: 100%;
-    height: calc(100% - 80px);
+    height: 200px;
 }
 
 .motto {
     text-shadow: 3px 3px 5px #000;
-    margin: 0 auto;
-    margin-top: 640px;
-    /* width: 31.578947%; 600 / 1900 */
-    width: 37.5em;
-    /* 600 / 1900 */
-    min-width: 400px;
+    width: 550px;
+    margin: auto;
     height: 200px;
     color: #fff;
 }
 
 .motto h4 {
     font-size: 2.8125em;
-    /* font-size: 2.4vw; */
-    min-width: 1.5vw;
     font-weight: 250;
     margin: 0;
 }
 
 .motto p {
     font-size: 1em;
-    /* font-size: 0.8vw; */
     font-weight: 200;
 }
 
 .hero-btn {
-    margin: 10px 60px;
+    margin: 10px 0;
     float: right;
-    /* width: 220px; */
-    width: 11.458vw;
+    width: 220px;
     height: 54px;
     border: 1px solid #fff;
     text-align: center;
     font-weight: 200;
     font-size: 1em;
     box-sizing: border-box;
-    min-width: 150px;
-    padding: 15px;
+    line-height: 50px;
     color: #fff;
 }
 
@@ -1249,7 +1244,13 @@ footer {
 
 /* -------------------------------------- CONTACT  ---------------------------------------*/
 .hero-contact {
-    background-image: url(img/contact/contact-hero.jpg);
+    background-image: url(img/contact/hero2.jpg);
+}
+
+.opacity-container {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .contact-motto p {
@@ -1600,7 +1601,11 @@ iframe {
     left: 60px;
 }
 
+/* -------------------------------------- MEDIA QUERYS  ---------------------------------------*/
+
 @media only screen and (max-width: 1600px) {
+
+    /* -------------------------------------- PRICES  ---------------------------------------*/
     .prices {
         height: 1370px;
     }
@@ -1627,12 +1632,6 @@ iframe {
 @media only screen and (max-width: 1300px) {
 
     /* -------------------------------------- CONTACT  ---------------------------------------*/
-    .opacity-container {
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-    }
-
     .contact {
         height: 1100px;
     }
@@ -1859,6 +1858,14 @@ iframe {
 @media only screen and (max-width: 830px) {
 
     /* -------------------------------------- PRICES  ---------------------------------------*/
+    .hero-prices {
+        background-position: 70% 50%;
+    }
+
+    .hero-contact {
+        background-position: 75% 50%;
+    }
+
     .prices {
         height: 2500px;
     }
@@ -1946,6 +1953,26 @@ iframe {
 }
 
 @media only screen and (max-width: 720px) {
+
+    /* -------------------------------------- HERO ---------------------------------------*/
+    .hero {
+        background-position: 5% 50%;
+    }
+
+    .motto {
+        width: 430px;
+    }
+
+    .hero-btn {
+        width: 180px;
+        height: 50px;
+        line-height: 45px;
+        font-size: 1em;
+    }
+
+    .motto h4 {
+        font-size: 2.2em;
+    }
 
     /* -------------------------------------- FOOTER  ---------------------------------------*/
     footer {
@@ -2053,6 +2080,7 @@ iframe {
 }
 
 @media only screen and (max-width: 520px) {
+
     /* -------------------------------------- CONTACT  ---------------------------------------*/
     .contact {
         height: 950px;
@@ -2203,5 +2231,26 @@ iframe {
     .logo-footer span {
         top: 85px;
         left: 100px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .motto {
+        width: 320px;
+    }
+
+    .hero-btn {
+        width: 150px;
+        height: 50px;
+        line-height: 45px;
+        font-size: .9em;
+    }
+
+    .motto h4 {
+        font-size: 2.2em;
+    }
+
+    .motto p {
+        font-size: .8em;
     }
 }
