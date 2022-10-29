@@ -1272,7 +1272,7 @@ iframe {
 .contact-container {
     margin: auto;
     width: 1160px;
-    height: 670px;
+    height: 100%;
     border: 1px solid black;
 }
 
@@ -1295,7 +1295,7 @@ iframe {
     background-size: contain;
     background-position: center center;
     float: left;
-} 
+}
 
 .location-img {
     width: 35px;
@@ -1314,6 +1314,7 @@ iframe {
 .gmail-img {
     width: 35px;
     height: 25px;
+    margin-bottom: 25px;
 
     background-image: url(img/contact/gmail.svg);
 }
@@ -1367,7 +1368,8 @@ iframe {
 }
 
 .form-part form {
-    margin-left: 90px;
+    margin: 0 auto;
+    width: 535px;
 }
 
 .form-part label {
@@ -1407,7 +1409,7 @@ iframe {
     font-weight: 200;
     box-sizing: border-box;
     margin: 30px 0;
-    padding: 8px;
+    line-height: 45px;
 }
 
 .form-part .submit-btn:hover {
@@ -1641,10 +1643,6 @@ iframe {
         margin-bottom: 20px;
     }
 
-    form {
-        margin: 0 auto;
-    }
-
     .form-part label {
         width: 100px;
     }
@@ -1652,7 +1650,6 @@ iframe {
     .contact-container {
         margin: auto;
         width: 800px;
-        height: 920px;
         border: 1px solid black;
     }
 
@@ -1686,10 +1683,6 @@ iframe {
 
     .contact-support {
         display: none;
-    }
-
-    .gmail-img {
-        margin-bottom: 25px;
     }
 }
 
@@ -1864,6 +1857,7 @@ iframe {
 }
 
 @media only screen and (max-width: 830px) {
+
     /* -------------------------------------- PRICES  ---------------------------------------*/
     .prices {
         height: 2500px;
@@ -1883,9 +1877,72 @@ iframe {
     }
 
     /* -------------------------------------- CONTACT  ---------------------------------------*/
-    .contact-container {
-        
+    .contact {
+        height: 950px;
     }
+
+    .contact-img {
+        margin: 15px auto;
+    }
+
+    .contact-container {
+        width: 500px;
+    }
+
+    .contact-item {
+        width: 152px;
+        margin: 5px;
+    }
+
+    .location-img,
+    .smartphone-img {
+        width: 25px;
+        height: 35px;
+    }
+
+    .contact-part {
+        height: 110px;
+    }
+
+    .gmail-img {
+        width: 30px;
+        height: 20px;
+        margin: 20px auto;
+    }
+
+    .contact-content h4 {
+        font-size: 1em;
+    }
+
+    .contact-content p {
+        display: none;
+    }
+
+    .form-part form {
+        width: 450px;
+    }
+
+    .form-part label {
+        font-size: 18px;
+    }
+
+    .form-part input {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .form-part textarea {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .form-part .submit-btn {
+        width: 140px;
+        height: 45px;
+        font-size: 18px;
+        float: right;
+    }
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -1992,6 +2049,42 @@ iframe {
 
     .copy-content {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    /* -------------------------------------- CONTACT  ---------------------------------------*/
+    .contact {
+        height: 950px;
+    }
+
+    .contact-img {
+        margin: 15px auto;
+    }
+
+    .contact-container {
+        width: 340px;
+    }
+
+    .contact-item {
+        width: 100px;
+        margin: 5px;
+    }
+
+    .contact-content h4 {
+        font-size: 12px;
+    }
+
+    .contact-part {
+        height: 110px;
+    }
+
+    .gmail-img {
+        margin: 20px auto;
+    }
+
+    .form-part form {
+        width: 310px;
     }
 }
 
