@@ -681,6 +681,7 @@ nav a {
 .powering-content {
     margin: 0 auto;
     width: 58.947368%;
+    min-width: 870px;
     /* 1120 / 1900 */
     height: 100%;
     text-align: center;
@@ -688,6 +689,7 @@ nav a {
 }
 
 .powering-content h4 {
+    margin-top: 0;
     font-size: 48px;
     font-weight: 300;
     color: #fff;
@@ -1428,7 +1430,7 @@ iframe {
     background-color: #FF960B;
     text-align: center;
     border: 1px solid black;
-    color: #fff;
+    color: #000;
     margin: 0;
     font-size: 20px;
     font-weight: 300;
@@ -1660,6 +1662,7 @@ iframe {
 }
 
 @media only screen and (max-width: 1600px) {
+
     /* -------------------------------------- TEAM  ---------------------------------------*/
     .team {
         height: 1500px;
@@ -1698,17 +1701,18 @@ iframe {
 }
 
 @media only screen and (max-width: 1510px) {
+
     /* -------------------------------------- GOALS  ---------------------------------------*/
     .goals {
         height: 1700px;
     }
-    
+
     .goals-container {
         width: 750px;
         height: 755px;
         margin: 50px auto;
     }
-    
+
     .goals-item {
         display: block;
         width: 100%;
@@ -1990,6 +1994,7 @@ iframe {
 }
 
 @media only screen and (max-width: 920px) {
+
     /* -------------------------------------- TEAM  ---------------------------------------*/
     .team {
         height: 2280px;
@@ -2068,6 +2073,24 @@ iframe {
         width: 100%;
     }
 
+    /* -------------------------------------- POWERING  ---------------------------------------*/
+
+    .powering-content {
+        width: 512px;
+        min-width: unset;
+    }
+
+    .powering-content h4 {
+        font-size: 36px;
+    }
+
+    .powering-content .start-btn {
+        width: 200px;
+        height: 50px;
+        font-size: 1.1em;
+        padding: 0;
+        line-height: 45px;
+    }
 }
 
 @media only screen and (max-width: 830px) {
@@ -2168,17 +2191,18 @@ iframe {
 }
 
 @media only screen and (max-width: 800px) {
+
     /* -------------------------------------- GOALS  ---------------------------------------*/
     .goals {
         height: 2050px;
     }
-    
+
     .goals-container {
         width: 450px;
         height: 755px;
         margin: 50px auto;
     }
-    
+
     .goals-item {
         display: block;
         width: 100%;
@@ -2191,13 +2215,15 @@ iframe {
         text-align: center;
     }
 
-    .goals-item .left-circles, .goals-item .right-circles {
+    .goals-item .left-circles,
+    .goals-item .right-circles {
         float: none;
         margin: 0;
         margin-left: 125px;
     }
 
-    .right, .left {
+    .right,
+    .left {
         float: none;
         text-align: center;
         margin: 0;
@@ -2441,6 +2467,17 @@ iframe {
     .section p {
         font-size: 13px;
     }
+
+    /* -------------------------------------- POWERING  ---------------------------------------*/
+    
+    .powering-content {
+        width: 340px;
+    }
+
+    .powering-content h4 {
+        font-size: 28px;
+        padding-top: 120px;
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -2613,6 +2650,7 @@ iframe {
 }
 
 @media only screen and (max-width: 460px) {
+
     /* -------------------------------------- HERO  ---------------------------------------*/
     .motto {
         width: 320px;
@@ -2641,7 +2679,7 @@ iframe {
     .goals-title {
         font-size: 2em;
     }
-    
+
     .goals-container {
         width: 340px;
     }
@@ -2669,12 +2707,14 @@ iframe {
         margin: 0;
     }
 
-    .goals-item .left-circles, .goals-item .right-circles {
+    .goals-item .left-circles,
+    .goals-item .right-circles {
         margin-left: 82.5px;
     }
 }
 
 @media only screen and (max-width: 400px) {
+
     /* -------------------------------------- TEAM  ---------------------------------------*/
     .team {
         height: 2000px;
