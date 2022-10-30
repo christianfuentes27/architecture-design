@@ -15,9 +15,8 @@ body {
 
 /* -------------------------------------- HERO  ---------------------------------------*/
 
-
 .hero {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: black;
     background-image: url(img/hero/op.jpg);
@@ -302,6 +301,7 @@ nav a {
 /* -------------------------------------- SERVICES  ---------------------------------------*/
 
 .services {
+    box-sizing: border-box;
     height: 100%;
     width: 100%;
     background-color: #EFEFEF;
@@ -324,8 +324,7 @@ nav a {
     /* 21 / 16 */
     line-height: 35px;
     text-align: center;
-    width: 47.552083%;
-    /* 913 / 1920 */
+    width: 913px;
     color: #3F3F3F;
 }
 
@@ -338,7 +337,7 @@ nav a {
 }
 
 .services-items {
-    width: 30.674846%;
+    width: 500px;
     /* 500 / 1630 */
     height: 700px;
     display: inline-block;
@@ -354,12 +353,28 @@ nav a {
 }
 
 .service-img {
-    width: 100%;
+    width: 500px;
     height: 378px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.services-content {
-    width: 100%;
+.service1 {
+    background-image: url(img/services-section/service1.jpg);
+}
+
+.service2 {
+    background-image: url(img/services-section/service2.jpg);
+}
+
+.service3 {
+    background-image: url(img/services-section/service3.jpg);
+}
+
+.service-content {
+    width: 500px;
     height: calc(100% - 378px);
     box-sizing: border-box;
     margin: 5px;
@@ -377,7 +392,7 @@ nav a {
     margin: 0 30px;
     margin-bottom: 38px;
     line-height: 27px;
-    width: 90%;
+    /* width: 90%; */
     color: #3F3F3F;
 }
 
@@ -1341,6 +1356,14 @@ iframe {
     line-height: 25px;
 }
 
+.contact-corporative {
+    margin-bottom: 2px;
+}
+
+.contact-support {
+    margin: 0;
+}
+
 .contact-content .redes {
     width: 100%;
     height: 325px;
@@ -1605,6 +1628,38 @@ iframe {
 }
 
 /* -------------------------------------- MEDIA QUERYS  ---------------------------------------*/
+@media only screen and (max-width: 1885px) {
+
+    /* -------------------------------------- SERVICES  ---------------------------------------*/
+    .services {
+        height: 1500px;
+    }
+
+    .services-container {
+        width: 1010px;
+        height: 730px;
+    }
+
+    .services-items {
+        width: 100%;
+        height: 378px;
+        display: block;
+        margin: 40px 0;
+    }
+
+    .service-img {
+        float: left;
+    }
+
+    .service-content {
+        height: 378px;
+        float: left;
+    }
+
+    .service-content h4 {
+        margin-top: 50px;
+    }
+}
 
 @media only screen and (max-width: 1600px) {
 
@@ -1798,6 +1853,47 @@ iframe {
     }
 }
 
+@media only screen and (max-width: 1050px) {
+
+    /* -------------------------------------- SERVICES  ---------------------------------------*/
+    .services {
+        height: 2500px;
+    }
+
+    .services-intro {
+        width: 90%;
+    }
+
+    .services-container {
+        width: 500px;
+        height: 730px;
+    }
+
+    .services-items {
+        width: 100%;
+        height: 700px;
+        margin: 40px 0;
+    }
+
+    .service-img {
+        float: none;
+    }
+
+    .service-content {
+        height: 300px;
+        float: none;
+    }
+
+    .service-content h4 {
+        margin-top: 20px;
+    }
+
+    .learn-btn {
+        float: right;
+        margin-right: 40px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     /* -------------------------------------- PROJECTS  ---------------------------------------*/
 
@@ -1827,7 +1923,7 @@ iframe {
 
     .project-item {
         border: none;
-        height: 30%;
+        height: 30.75%;
     }
 
     .project-content h4 {
@@ -1847,6 +1943,10 @@ iframe {
         font-size: 10px;
     }
 
+    .pages {
+        margin: 50px auto;
+    }
+
     /* -------------------------------------- FOOTER  ---------------------------------------*/
     .footer-items {
         width: 100%;
@@ -1859,6 +1959,7 @@ iframe {
 }
 
 @media only screen and (max-width: 870px) {
+
     /* -------------------------------------- WELCOME  ---------------------------------------*/
     .welcome {
         height: 1180px;
@@ -1868,7 +1969,7 @@ iframe {
         min-width: 500px;
         width: 70%;
     }
-    
+
     .center-part {
         display: none;
     }
@@ -1895,7 +1996,8 @@ iframe {
         display: block;
     }
 
-    .section p, .section h4 {
+    .section p,
+    .section h4 {
         text-align: center;
     }
 
@@ -2129,6 +2231,80 @@ iframe {
     }
 }
 
+@media only screen and (max-width: 560px) {
+
+    /* -------------------------------------- SERVICES  ---------------------------------------*/
+    .services {
+        box-sizing: border-box;
+        padding-top: 50px;
+        height: 2600px;
+    }
+
+    .services-intro {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .services-container {
+        width: 95%;
+        height: 730px;
+    }
+
+    .services-items {
+        width: 100%;
+        height: 700px;
+        margin: 40px 0;
+    }
+
+    .service-img {
+        width: 100%;
+        height: 378px;
+    }
+
+    .service-content {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .service-content h4 {
+        font-size: 1.3em;
+        margin: 25px 0 15px 20px;
+    }
+
+    .service-content p {
+        font-size: .9em;
+        margin: 0 20px;
+    }
+
+    .learn-btn {
+        font-size: .9em;
+        width: 150px;
+        padding: 0;
+        line-height: 37px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+
+    /* -------------------------------------- WELCOME  ---------------------------------------*/
+    .welcome {
+        height: 1200px;
+        padding-top: 50px;
+    }
+
+    .welcome-intro {
+        font-size: 1em;
+        min-width: unset;
+        width: 90%;
+    }
+
+    .section p {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 520px) {
 
     /* -------------------------------------- CONTACT  ---------------------------------------*/
@@ -2166,24 +2342,6 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 535px) {
-    /* -------------------------------------- WELCOME  ---------------------------------------*/
-    .welcome {
-        height: 1200px;
-        padding-top: 50px;
-    }
-
-    .welcome-intro {
-        font-size: 1em;
-        min-width: unset;
-        width: 90%;
-    }
-
-    .section p {
-        font-size: 13px;
-    }
-}
-
 @media only screen and (max-width: 500px) {
 
     /* -------------------------------------- NAVBAR  ---------------------------------------*/
@@ -2215,8 +2373,13 @@ iframe {
         font-size: 20px;
     }
 
+    /* -------------------------------------- PROJECTS  ---------------------------------------*/
+    .projects-container {
+        width: 100%;
+    }
+
     .project-item {
-        width: 90%;
+        width: 95%;
     }
 
     .project1,
