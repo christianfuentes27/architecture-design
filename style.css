@@ -466,51 +466,43 @@ nav a {
 /* -------------------------------------- TEAM  ---------------------------------------*/
 
 .team {
-    height: 100%;
+    box-sizing: border-box;
+    padding-top: 80px;
+    height: 1000px;
     width: 100%;
 }
 
-/* Team title */
 .team-title {
     text-align: center;
-    width: 10.526315%;
-    /* 200 / 1900 */
-    height: 4.629629%;
-    /* 50 / 1080 */
+    width: 150px;
+    height: 50px;
     font-size: 2.5em;
     font-weight: 400;
     margin: auto;
-    margin-top: 80px;
 }
 
-/* Team intro text */
 .team-intro {
     margin: auto;
     margin-top: 50px;
     font-size: 1.1em;
-    /* 21 / 16 */
     line-height: 35px;
     text-align: center;
-    width: 47.552083%;
-    /* 913 / 1920 */
+    width: 913px;
     color: #3F3F3F;
 }
 
 .team-container {
-    width: 83.684210%;
-    /* 1590 / 1900 */
-    height: 46.296296%;
-    /* 500 / 1080 */
+    width: 1600px;
+    height: 500px;
     margin: 90px auto;
 }
 
 .team-item {
-    width: 21.383647%;
-    /* 340 / 1590 */
+    width: 340px;
     height: 500px;
     float: left;
 
-    margin: 0 25px;
+    margin: 0 30px;
     background-color: #3F3F3F;
     transition-duration: .5s;
     transition-timing-function: ease;
@@ -1662,6 +1654,18 @@ iframe {
 }
 
 @media only screen and (max-width: 1600px) {
+    /* -------------------------------------- TEAM  ---------------------------------------*/
+    .team {
+        height: 1500px;
+    }
+
+    .team-container {
+        width: 800px;
+    }
+
+    .team-item {
+        margin: 0 20px 40px 20px;
+    }
 
     /* -------------------------------------- PRICES  ---------------------------------------*/
     .prices {
@@ -1791,6 +1795,8 @@ iframe {
     .external-motto {
         left: 100px;
     }
+
+    /* -------------------------------------- PROJECTS  ---------------------------------------*/
 
     .projects-container {
         box-sizing: border-box;
@@ -1955,6 +1961,38 @@ iframe {
     .footer-items .logo,
     .footer-content {
         margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    /* -------------------------------------- TEAM  ---------------------------------------*/
+    .team {
+        height: 2280px;
+    }
+
+    .team-intro {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .team-item {
+        margin: 30px auto;
+        float: none;
+        display: block;
+        height: 440px;
+    }
+
+    .team-img {
+        height: 350px;
+        background-position: center top;
+    }
+
+    .team-img img {
+        margin-top: 290px;
     }
 }
 
@@ -2130,11 +2168,11 @@ iframe {
     .dreams-content {
         width: 450px;
     }
-    
+
     .dreams h4 {
         font-size: 22px;
     }
-    
+
     .dreams .start-btn {
         width: 180px;
         height: 40px;
@@ -2257,10 +2295,10 @@ iframe {
 
     .services-title {
         font-size: 2em;
+        padding: 0;
     }
 
     .services-intro {
-        width: 90%;
         font-size: 1em;
     }
 
@@ -2405,7 +2443,7 @@ iframe {
     .dreams-content {
         width: 260px;
     }
-    
+
     .dreams h4 {
         font-size: 1.1em;
     }
@@ -2503,6 +2541,7 @@ iframe {
 }
 
 @media only screen and (max-width: 460px) {
+    /* -------------------------------------- HERO  ---------------------------------------*/
     .motto {
         width: 320px;
     }
@@ -2520,5 +2559,47 @@ iframe {
 
     .motto p {
         font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* -------------------------------------- TEAM  ---------------------------------------*/
+    .team {
+        height: 2000px;
+        padding-top: 50px;
+    }
+
+    .team-title {
+        font-size: 2em;
+    }
+
+    .team-intro {
+        margin-top: 30px;
+    }
+
+    .team-container {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .team-content h4 {
+        font-size: 1.2em;
+    }
+
+    .team-content p {
+        font-size: .9em;
+    }
+
+    .team-item {
+        width: 300px;
+        height: 380px;
+    }
+
+    .team-img {
+        height: 300px;
+    }
+
+    .team-img img {
+        margin-top: 245px;
     }
 }
