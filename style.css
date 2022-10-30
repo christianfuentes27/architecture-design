@@ -584,11 +584,12 @@ nav a {
 /* -------------------------------------- GOALS  ---------------------------------------*/
 
 .goals {
-    height: 100%;
+    height: 1080px;
     width: 100%;
+    box-sizing: border-box;
+    padding-top: 80px;
 }
 
-/* Goals title */
 .goals-title {
     text-align: center;
     width: 200px;
@@ -596,18 +597,17 @@ nav a {
     font-size: 2.5em;
     font-weight: 400;
     margin: auto;
-    margin-top: 80px;
 }
 
 .goals-container {
-    width: 1650px;
+    width: 1505px;
     height: 755px;
     margin: 50px auto;
 }
 
 .goals-item {
     display: inline-block;
-    width: 820px;
+    width: 750px;
     height: 375px;
 }
 
@@ -658,6 +658,12 @@ nav a {
     float: right;
     text-align: right;
     margin-right: 40px;
+}
+
+.goals-content {
+    width: 440px;
+    height: 220px;
+    margin-top: 30px;
 }
 
 /* -------------------------------------- POWERING  ---------------------------------------*/
@@ -1691,6 +1697,25 @@ iframe {
     }
 }
 
+@media only screen and (max-width: 1510px) {
+    /* -------------------------------------- GOALS  ---------------------------------------*/
+    .goals {
+        height: 1700px;
+    }
+    
+    .goals-container {
+        width: 750px;
+        height: 755px;
+        margin: 50px auto;
+    }
+    
+    .goals-item {
+        display: block;
+        width: 100%;
+        height: 375px;
+    }
+}
+
 @media only screen and (max-width: 1300px) {
 
     /* -------------------------------------- CONTACT  ---------------------------------------*/
@@ -2142,6 +2167,53 @@ iframe {
 
 }
 
+@media only screen and (max-width: 800px) {
+    /* -------------------------------------- GOALS  ---------------------------------------*/
+    .goals {
+        height: 2050px;
+    }
+    
+    .goals-container {
+        width: 450px;
+        height: 755px;
+        margin: 50px auto;
+    }
+    
+    .goals-item {
+        display: block;
+        width: 100%;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+
+    .goals-item img {
+        width: 200px;
+        text-align: center;
+    }
+
+    .goals-item .left-circles, .goals-item .right-circles {
+        float: none;
+        margin: 0;
+        margin-left: 125px;
+    }
+
+    .right, .left {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    .goals-content {
+        width: 440px;
+        height: 220px;
+        margin-top: 30px;
+    }
+
+    .goals-content h4 {
+        margin: 10px 0;
+    }
+}
+
 @media only screen and (max-width: 720px) {
 
     /* -------------------------------------- HERO ---------------------------------------*/
@@ -2559,6 +2631,46 @@ iframe {
 
     .motto p {
         font-size: .8em;
+    }
+
+    /* -------------------------------------- GOALS  ---------------------------------------*/
+    .goals {
+        height: 1750px;
+    }
+
+    .goals-title {
+        font-size: 2em;
+    }
+    
+    .goals-container {
+        width: 340px;
+    }
+
+    .goals-item img {
+        width: 175px;
+    }
+
+    .goals-item {
+        height: 370px;
+    }
+
+    .goals-content {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .goals-content h4 {
+        font-size: 1.2em;
+    }
+
+    .goals-content p {
+        font-size: .9em;
+        margin: 0;
+    }
+
+    .goals-item .left-circles, .goals-item .right-circles {
+        margin-left: 82.5px;
     }
 }
 
