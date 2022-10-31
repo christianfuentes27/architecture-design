@@ -725,41 +725,38 @@ nav a {
 /* -------------------------------------- TESTIMONIALS  ---------------------------------------*/
 
 .testimonials {
-    height: 100%;
+    box-sizing: border-box;
+    padding-top: 80px;
+    height: 1000px;
     width: 100%;
     position: relative;
 }
 
 .testimonials-title {
     text-align: center;
-    width: 10.526315%;
-    /* 200 / 1900 */
-    height: 4.629629%;
-    /* 50 / 1080 */
+    width: 250px;
+    height: 50px;
     font-size: 2.5em;
     font-weight: 400;
     margin: auto;
-    margin-top: 80px;
+}
+
+.arrow {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 425px;
 }
 
 .arrow-right {
-    height: 30px;
-    width: 30px;
     background-image: url(img/testimonials/arrow-right.svg);
+    right: 30px;
 
-    position: absolute;
-    right: 50px;
-    top: 350px;
 }
 
 .arrow-left {
-    height: 30px;
-    width: 30px;
     background-image: url(img/testimonials/arrow-left.svg);
-
-    position: absolute;
-    left: 50px;
-    top: 350px;
+    left: 30px;
 }
 
 .testimonials-container {
@@ -772,7 +769,7 @@ nav a {
 
 .testimonials-item {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 35px;
     width: 575px;
     height: 330px;
     border: 1px solid #b3b3b3;
@@ -789,9 +786,7 @@ nav a {
     background-image: url(img/testimonials/quotes.svg);
     color: #3F3F3F;
 
-    margin-top: 25px;
-    margin-left: 30px;
-    margin-bottom: 40px;
+    margin: 25px 0 40px 30px;
     float: left;
 }
 
@@ -1720,6 +1715,63 @@ iframe {
     }
 }
 
+@media only screen and (max-width: 1420px) {
+    /* -------------------------------------- TESTIMONIALS  ---------------------------------------*/
+
+    .testimonials {
+        height: 1400px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .testimonials-container {
+        width: 575px;
+        height: auto;
+        margin: 100px auto;
+    }
+
+    .testimonials-item {
+        display: block;
+        margin: 0;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+
+    .partners-container {
+        width: 700px;
+        height: 110px;
+        margin: 80px auto;
+    }
+
+    .partner {
+        background-size: contain;
+        margin: 0 25px;
+    }
+
+    .partner1 {
+        width: 100px;
+    }
+    
+    .partner2 {
+        width: 96px;
+    }
+    
+    .partner3 {
+        width: 185px;
+    }
+    
+    .partner4 {
+        width: 115px;
+    }
+    
+    .partner5 {
+        width: 100px;
+    }
+
+}
+
 @media only screen and (max-width: 1300px) {
 
     /* -------------------------------------- CONTACT  ---------------------------------------*/
@@ -2382,6 +2434,97 @@ iframe {
     }
 }
 
+@media only screen and (max-width: 650px) {
+    /* -------------------------------------- TESTIMONIALS  ---------------------------------------*/
+    
+    .testimonials {
+        height: 1400px;
+        padding-top: 50px;
+    }
+
+    .testimonials-title {
+        font-size: 2em;
+    }
+
+    .testimonials-container {
+        width: 340px;
+        height: auto;
+        margin: 100px auto;
+    }
+    
+    .testimonials-item {
+        height: auto;
+    }
+    
+    .quotes {
+        width: 35px;
+        height: 35px;
+        margin: 15px 0 30px 20px;
+    }
+    
+    .testimonials-header h4 {
+        line-height: 25px;
+        margin-left: 40px;
+        font-size: 1em;
+    }
+    
+    .testimonials-item p {
+        width: 90%;
+        margin: 20px;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    
+    .testimonial-face {
+        height: 90px;
+        width: 90px;
+        top: -30px;
+        margin-left: 30px;
+    }
+
+    .slider {
+        width: fit-content;
+        height: 15px;
+    }
+    
+    .circle {
+        width: 5px;
+        height: 5px;
+        margin-right: 8px;
+    }
+    
+    .active {
+        width: 10px;
+        height: 10px;
+    }
+
+    .partners-container {
+        width: 300px;
+        height: auto;
+        margin: 80px auto;
+    }
+
+    .partner1 {
+        width: 90px;
+    }
+    
+    .partner2 {
+        width: 85px;
+    }
+    
+    .partner3 {
+        width: 165px;
+    }
+    
+    .partner4 {
+        width: 90px;
+    }
+    
+    .partner5 {
+        width: 80px;
+    }
+}
+
 @media only screen and (max-width: 560px) {
 
     /* -------------------------------------- SERVICES  ---------------------------------------*/
@@ -2469,7 +2612,7 @@ iframe {
     }
 
     /* -------------------------------------- POWERING  ---------------------------------------*/
-    
+
     .powering-content {
         width: 340px;
     }
@@ -2674,6 +2817,7 @@ iframe {
     /* -------------------------------------- GOALS  ---------------------------------------*/
     .goals {
         height: 1750px;
+        padding-top: 50px;
     }
 
     .goals-title {
