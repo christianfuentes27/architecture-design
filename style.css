@@ -173,10 +173,10 @@ nav a {
 /* Welcome intro text */
 .welcome-intro {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 1.1em;
     /* 21 / 16 */
-    line-height: 35px;
+    line-height: 30px;
     text-align: center;
     width: 47.552083%;
     min-width: 700px;
@@ -322,7 +322,7 @@ nav a {
     margin-top: 30px;
     font-size: 1.1em;
     /* 21 / 16 */
-    line-height: 35px;
+    line-height: 30px;
     text-align: center;
     width: 913px;
     color: #3F3F3F;
@@ -485,7 +485,7 @@ nav a {
     margin: auto;
     margin-top: 50px;
     font-size: 1.1em;
-    line-height: 35px;
+    line-height: 30px;
     text-align: center;
     width: 913px;
     color: #3F3F3F;
@@ -638,14 +638,18 @@ nav a {
     color: #3F3F3F;
 }
 
+.orange {
+    color: #FF960B;
+}
+
+.bold {
+    font-weight: 500;
+}
+
 .goals-content h4 {
     font-size: 1.5em;
     /* 24 / 16 */
     font-weight: 500;
-}
-
-.goals-content span {
-    color: #FF960B;
 }
 
 .right {
@@ -1169,9 +1173,9 @@ footer {
 .begin-btn {
     box-sizing: border-box;
     margin: 40px auto;
-    padding: 12px;
     width: 175px;
     height: 50px;
+    line-height: 45px;
     border: 1px solid #3F3F3F;
 }
 
@@ -1233,7 +1237,7 @@ footer {
 .custom-price {
     height: 80px;
     width: 400px;
-    margin: 70px auto;
+    margin: 50px auto;
 }
 
 .custom-price>* {
@@ -1431,7 +1435,7 @@ iframe {
     font-weight: 300;
     box-sizing: border-box;
     margin: 30px 0;
-    line-height: 45px;
+    line-height: 44px;
 }
 
 .form-part .submit-btn:hover {
@@ -2277,7 +2281,6 @@ iframe {
     .right,
     .left {
         float: none;
-        text-align: center;
         margin: 0;
     }
 
@@ -2289,6 +2292,11 @@ iframe {
 
     .goals-content h4 {
         margin: 10px 0;
+        text-align: center;
+    }
+    
+    .goals-content p {
+        text-align: justify;
     }
 }
 
@@ -2335,21 +2343,28 @@ iframe {
     }
 
     .footer-items .logo {
-        margin: auto;
-        width: 100%;
+        width: 330px;
+        height: 162px;
+        padding-top: 0;
+        float: none;
+        margin: 0 auto;
+        height: 162px;
+        text-align: center;
+    }
+
+    .logo-footer .logobg{
+        top: 50px;
+        left: 0;
+    }
+
+    .logo-footer span {
+        top: 42px;
+        left: 80px;
     }
 
     .footer-items img {
         width: 40px;
         height: 40px;
-    }
-
-    .logo-footer .logobg {
-        left: 40px;
-    }
-
-    .logo-footer span {
-        left: 120px;
     }
 
     .footer-items .logo h4 {
@@ -2368,13 +2383,6 @@ iframe {
     .footer-content {
         height: 75%;
         margin: 0;
-    }
-
-    .footer-items .logo {
-        float: none;
-        margin: 0 auto;
-        height: 200px;
-        text-align: center;
     }
 
     .column {
@@ -2531,7 +2539,7 @@ iframe {
     .services {
         box-sizing: border-box;
         padding-top: 50px;
-        height: 2600px;
+        height: auto;
     }
 
     .services-title {
@@ -2545,7 +2553,8 @@ iframe {
 
     .services-container {
         width: 95%;
-        height: 730px;
+        padding-bottom: 30px;
+        height: auto;
     }
 
     .services-items {
@@ -2593,8 +2602,13 @@ iframe {
 
     /* -------------------------------------- WELCOME  ---------------------------------------*/
     .welcome {
-        height: 1200px;
+        height: fit-content;
         padding-top: 50px;
+    }
+
+    .welcome-container {
+        height: fit-content;
+        margin-bottom: 0;
     }
 
     .welcome-title {
@@ -2677,6 +2691,7 @@ iframe {
     .menu-bars {
         width: 30px;
         height: 30px;
+        margin-top: 24px;
     }
 
     .external-motto {
@@ -2763,7 +2778,7 @@ iframe {
     .begin-btn {
         margin: 20px auto;
         font-size: 14px;
-        line-height: 40px;
+        line-height: 36px;
         padding: 0;
         width: 125px;
         height: 40px;
@@ -2786,9 +2801,14 @@ iframe {
 
     /* -------------------------------------- FOOTER  ---------------------------------------*/
 
+    .footer-items .logo {
+        width: 265px;
+        height: 150px;
+    }
+
     .logo-footer span {
-        top: 85px;
-        left: 100px;
+        top: 36px;
+        left: 70px;
     }
 }
 
@@ -2825,7 +2845,7 @@ iframe {
     }
 
     .goals-container {
-        width: 340px;
+        width: 330px;
     }
 
     .goals-item img {
