@@ -468,7 +468,7 @@ nav a {
 .team {
     box-sizing: border-box;
     padding-top: 80px;
-    height: 1000px;
+    height: auto;
     width: 100%;
 }
 
